@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollisionDetection : MonoBehaviour
 {
     public static bool isColliding = false;
+    public static List<Collider> colliders = new List<Collider>();
     // Update is called once per frame
     void Update()
     {
@@ -15,6 +16,7 @@ public class CollisionDetection : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
             isColliding = true;
+            colliders.Add(collision);
         }
     }
 
@@ -23,6 +25,7 @@ public class CollisionDetection : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
             isColliding = false;
+            colliders.Remove(collision);
         }
     }
 

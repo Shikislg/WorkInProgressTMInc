@@ -7,6 +7,7 @@ public class SwordBehaviour : MonoBehaviour
     public KeyCode attackKey = KeyCode.Mouse0;
 
     public float attackSpeed = 1f;
+    private float damage = 50f;
     bool isReadyToAttack = true;
 
     // Start is called before the first frame update
@@ -28,14 +29,13 @@ public class SwordBehaviour : MonoBehaviour
 
     void Attack()
     {
-        //Debug.Log("Swing!");
         if (CollisionDetection.isColliding)
         {
-            //Debug.Log("and Hit!");
-        }
-        else
-        {
-            //Debug.Log("and Miss!");
+            //Damage all Objects of Enemy layer colliding with the sword radius
+            foreach(Collider collider in CollisionDetection.colliders)
+            {
+                collider.gameObject.GetComponent<EnemyHealth>().Damage(damage);
+            }
         }
 
     }

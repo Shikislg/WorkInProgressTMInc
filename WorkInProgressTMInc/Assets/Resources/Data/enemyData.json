@@ -1,0 +1,14 @@
+{
+  "enemy": [
+    {
+      "name": "basic",
+      "health": 50,
+      "damage": 1
+    },
+    {
+      "name": "elite",
+      "health": 150,
+      "damage": 4
+    }
+  ]
+}

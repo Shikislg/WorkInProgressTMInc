@@ -34,6 +34,5 @@ public class PlayerData : MonoBehaviour
 
         PlayerHealth.maxHealth = playerList.player[classId].health;
         PlayerHealth.health = PlayerHealth.maxHealth;
-        Debug.Log(PlayerHealth.maxHealth);
     }
 }

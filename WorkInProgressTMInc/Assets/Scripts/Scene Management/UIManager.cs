@@ -11,13 +11,12 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        speedDisplay = GameObject.Find("SpeedDisplay").GetComponent<Text>();
+        speedDisplay = GameObject.Find("HealthDisplay").GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        string s = " Speed: "+(player.GetComponent<Rigidbody>().velocity.x + player.GetComponent<Rigidbody>().velocity.z) ;
-        speedDisplay.text = s;
+        speedDisplay.text = "Health: " + PlayerHealth.health;
     }
 }
