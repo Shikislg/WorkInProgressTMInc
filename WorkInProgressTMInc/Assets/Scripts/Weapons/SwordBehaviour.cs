@@ -28,14 +28,14 @@ public class SwordBehaviour : MonoBehaviour
 
     void Attack()
     {
-        Debug.Log("Swing!");
+        //Debug.Log("Swing!");
         if (CollisionDetection.isColliding)
         {
-            Debug.Log("and Hit!");
+            //Debug.Log("and Hit!");
         }
         else
         {
-            Debug.Log("and Miss!");
+            //Debug.Log("and Miss!");
         }
 
     }

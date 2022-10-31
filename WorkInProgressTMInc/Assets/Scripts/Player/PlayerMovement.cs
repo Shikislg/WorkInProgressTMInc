@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(GameManager.playerStats.health);
+
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         moveSpeed = PlayerStats.walkSpeed;

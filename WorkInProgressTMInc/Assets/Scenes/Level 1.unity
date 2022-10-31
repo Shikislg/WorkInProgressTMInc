@@ -623,7 +623,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-67942
+  m_Name: pb_Mesh20784
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1170,6 +1170,7 @@ GameObject:
   - component: {fileID: 593815878}
   - component: {fileID: 593815877}
   - component: {fileID: 593815879}
+  - component: {fileID: 593815880}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1234,6 +1235,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   orientation: {fileID: 1393395955}
+--- !u!114 &593815880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593815876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093ef5491dfca5e4d8bd0f1be49efbf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3988,6 +4001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee199a242ffb23a40ab7b77905cbcee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textJSON: {fileID: 0}
 --- !u!1001 &1202617419650635358
 PrefabInstance:
   m_ObjectHideFlags: 0

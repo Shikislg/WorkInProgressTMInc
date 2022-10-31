@@ -12,7 +12,6 @@ public class CollisionDetection : MonoBehaviour
     }
     void OnTriggerEnter(Collider collision)
     {
-        Debug.Log(collision.gameObject.layer + " " + LayerMask.NameToLayer("Enemy"));
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
             isColliding = true;
