@@ -7,7 +7,7 @@ public class SwordBehaviour : MonoBehaviour
     public KeyCode attackKey = KeyCode.Mouse0;
 
     public float attackSpeed = 1f;
-    private float damage = 50f;
+    private float damage = 49f;
     bool isReadyToAttack = true;
 
     // Start is called before the first frame update

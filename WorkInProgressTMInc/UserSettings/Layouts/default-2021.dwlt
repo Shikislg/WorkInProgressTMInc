@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1397
   m_ShowMode: 4
-  m_Title: GitHub
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 23
+  controlID: 292
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,12 +139,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1955
+    width: 1960
     height: 1347
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 83
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,12 +164,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1955
+    width: 1960
     height: 1044
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53
+  controlID: 84
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,10 +187,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 231
+    width: 232
     height: 1044
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -211,9 +211,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 231
+    x: 232
     y: 0
-    width: 1724
+    width: 1728
     height: 1044
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -233,23 +233,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 1044
-    width: 1955
+    width: 1960
     height: 303
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,23 +260,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1955
+    x: 1960
     y: 0
-    width: 605
+    width: 600
     height: 1347
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,22 +297,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1955
+    x: 1960
     y: 73
-    width: 604
+    width: 599
     height: 1326
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: 21767.889300400002
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -471,10 +471,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:45.027+01:00
+      updatedTimeString: 2022-10-31T23:15:40.659+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2022-10-31T21:24:25.365+01:00
+      updatedTimeString: 2022-10-31T23:15:40.204+01:00
       cacheType: 1
     currentBranch:
       name: main
@@ -496,9 +496,9 @@ MonoBehaviour:
     - name: origin/main
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: '[main]'
@@ -511,18 +511,14 @@ MonoBehaviour:
         keys:
         - WorkInProgressTMInc
         - WorkInProgressTMInc\Assets
-        - WorkInProgressTMInc\Assets\Data
-        - WorkInProgressTMInc\Assets\Plugins
-        - WorkInProgressTMInc\Assets\Plugins\GitHub
-        - WorkInProgressTMInc\Assets\Plugins\GitHub\Editor
-        - WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64
-        - WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86
         - WorkInProgressTMInc\Assets\Resources
-        - WorkInProgressTMInc\Assets\Resources\Data
+        - WorkInProgressTMInc\Assets\Resources\Images
+        - WorkInProgressTMInc\Assets\Scenes
         - WorkInProgressTMInc\Assets\Scripts
-        - WorkInProgressTMInc\Assets\Scripts\Player
-        - WorkInProgressTMInc\Assets\Scripts\Scene Management
+        - WorkInProgressTMInc\Assets\Scripts\Enemy
         - WorkInProgressTMInc\Assets\Scripts\Weapons
+        - WorkInProgressTMInc\UserSettings
+        - WorkInProgressTMInc\UserSettings\Layouts
         values:
         - path: WorkInProgressTMInc
           label: WorkInProgressTMInc
@@ -560,114 +556,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Data
-          label: Data
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Plugins
-          label: Plugins
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Plugins\GitHub
-          label: GitHub
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor
-          label: Editor
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64
-          label: x64
-          level: 5
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86
-          label: x86
-          level: 5
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: WorkInProgressTMInc\Assets\Resources
           label: Resources
           level: 2
@@ -686,9 +574,27 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Resources\Data
-          label: Data
+        - path: WorkInProgressTMInc\Assets\Resources\Images
+          label: Images
           level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: WorkInProgressTMInc\Assets\Scenes
+          label: Scenes
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -722,26 +628,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Scripts\Player
-          label: Player
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: WorkInProgressTMInc\Assets\Scripts\Scene Management
-          label: Scene Management
+        - path: WorkInProgressTMInc\Assets\Scripts\Enemy
+          label: Enemy
           level: 3
           isFolder: 1
           isContainer: 0
@@ -761,6 +649,42 @@ MonoBehaviour:
         - path: WorkInProgressTMInc\Assets\Scripts\Weapons
           label: Weapons
           level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: WorkInProgressTMInc\UserSettings
+          label: UserSettings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: WorkInProgressTMInc\UserSettings\Layouts
+          label: Layouts
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -840,1086 +764,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Data
-        label: Data
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Data\classData.json
-        label: classData.json
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Data\classData.json
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Data\classData.json
-          projectPath: Assets\Data\classData.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: WorkInProgressTMInc\Assets\Data\classData.json.meta
-        label: classData.json.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Data\classData.json.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Data\classData.json.meta
-          projectPath: Assets\Data\classData.json.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: WorkInProgressTMInc\Assets\Plugins.meta
-        label: Plugins.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins.meta
-          projectPath: Assets\Plugins.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins
-        label: Plugins
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub.meta
-        label: GitHub.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub.meta
-          projectPath: Assets\Plugins\GitHub.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub
-        label: GitHub
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-        label: Editor.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-          projectPath: Assets\Plugins\GitHub\Editor.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor
-        label: Editor
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-        label: AsyncBridge.Net35.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-        label: AsyncBridge.Net35.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-        label: big-logo@2x.png
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-        label: big-logo@2x.png.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt
-        label: credits.txt
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt
-          projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt.meta
-        label: credits.txt.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt.meta
-          projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt
-        label: eula.txt
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt
-          projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt.meta
-        label: eula.txt.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt.meta
-          projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-        label: ExtensionLoader.cs
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-        label: ExtensionLoader.cs.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-        label: GitHub.Api.45.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-        label: GitHub.Api.45.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-        label: GitHub.Api.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-        label: GitHub.Api.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-        label: GitHub.Logging.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-        label: GitHub.Logging.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-        label: GitHub.Unity.45.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-        label: GitHub.Unity.45.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-        label: GitHub.Unity.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-        label: GitHub.Unity.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-        label: GitHub.UnityShim.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-        label: GitHub.UnityShim.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle
-        label: libsfw.bundle
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-        label: libsfw.bundle.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so
-        label: libsfw.so
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-        label: libsfw.so.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-        label: Mono.Posix.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-        label: Mono.Posix.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-        label: QuickGuide.pdf
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-        label: QuickGuide.pdf.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-        label: ReadOnlyCollectionsInterfaces.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-        label: ReadOnlyCollectionsInterfaces.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll
-        label: sfw.net.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll
-          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-        label: sfw.net.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll
-        label: System.Threading.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll
-          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-        label: System.Threading.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-        label: UnityAPIWrapper.cs
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-        label: UnityAPIWrapper.cs.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64.meta
-        label: x64.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64
-        label: x64
-        level: 5
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-        label: pthreadVC2.dll
-        level: 6
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-        label: pthreadVC2.dll.meta
-        level: 7
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-        label: sfw_x64.dll
-        level: 6
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-        label: sfw_x64.dll.meta
-        level: 7
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86.meta
-        label: x86.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86
-        label: x86
-        level: 5
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-        label: pthreadVC2.dll
-        level: 6
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-        label: pthreadVC2.dll.meta
-        level: 7
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-        label: sfw_x86.dll
-        level: 6
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-        label: sfw_x86.dll.meta
-        level: 7
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Resources.meta
-        label: Resources.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Resources.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources.meta
-          projectPath: Assets\Resources.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: WorkInProgressTMInc\Assets\Resources
         label: Resources
         level: 2
@@ -1938,8 +782,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Resources\Data.meta
-        label: Data.meta
+      - path: WorkInProgressTMInc\Assets\Resources\Images.meta
+        label: Images.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -1950,14 +794,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Resources\Data.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data.meta
-          projectPath: Assets\Resources\Data.meta
+          path: WorkInProgressTMInc\Assets\Resources\Images.meta
+          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Images.meta
+          projectPath: Assets\Resources\Images.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Resources\Data
-        label: Data
+      - path: WorkInProgressTMInc\Assets\Resources\Images
+        label: Images
         level: 3
         isFolder: 1
         isContainer: 0
@@ -1974,8 +818,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Resources\Data\classData.json
-        label: classData.json
+      - path: WorkInProgressTMInc\Assets\Resources\Images\health.png
+        label: health.png
         level: 4
         isFolder: 0
         isContainer: 1
@@ -1986,14 +830,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Resources\Data\classData.json
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data\classData.json
-          projectPath: Assets\Resources\Data\classData.json
+          path: WorkInProgressTMInc\Assets\Resources\Images\health.png
+          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Images\health.png
+          projectPath: Assets\Resources\Images\health.png
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Resources\Data\classData.json.meta
-        label: classData.json.meta
+      - path: WorkInProgressTMInc\Assets\Resources\Images\health.png.meta
+        label: health.png.meta
         level: 5
         isFolder: 0
         isContainer: 0
@@ -2004,12 +848,49 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Resources\Data\classData.json.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data\classData.json.meta
-          projectPath: Assets\Resources\Data\classData.json.meta
+          path: WorkInProgressTMInc\Assets\Resources\Images\health.png.meta
+          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Images\health.png.meta
+          projectPath: Assets\Resources\Images\health.png.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
+      - path: WorkInProgressTMInc\Assets\Scenes
+        label: Scenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: WorkInProgressTMInc\Assets\Scenes\Level 1.unity
+        label: Level 1.unity
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WorkInProgressTMInc\Assets\Scenes\Level 1.unity
+          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scenes\Level
+            1.unity
+          projectPath: Assets\Scenes\Level 1.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: WorkInProgressTMInc\Assets\Scripts
         label: Scripts
         level: 2
@@ -2028,8 +909,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Scripts\Player
-        label: Player
+      - path: WorkInProgressTMInc\Assets\Scripts\Enemy
+        label: Enemy
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2046,44 +927,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs
-        label: PlayerHealth.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs
-          projectPath: Assets\Scripts\Player\PlayerHealth.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs.meta
-        label: PlayerHealth.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs.meta
-          projectPath: Assets\Scripts\Player\PlayerHealth.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerMovement.cs
-        label: PlayerMovement.cs
+      - path: WorkInProgressTMInc\Assets\Scripts\Enemy\EnemyHealth.cs
+        label: EnemyHealth.cs
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2094,106 +939,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerMovement.cs
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerMovement.cs
-          projectPath: Assets\Scripts\Player\PlayerMovement.cs
+          path: WorkInProgressTMInc\Assets\Scripts\Enemy\EnemyHealth.cs
+          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Enemy\EnemyHealth.cs
+          projectPath: Assets\Scripts\Enemy\EnemyHealth.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: WorkInProgressTMInc\Assets\Scripts\Scene Management
-        label: Scene Management
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs
-        label: GameManager.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-            Management\GameManager.cs
-          projectPath: Assets\Scripts\Scene Management\GameManager.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs.meta
-        label: GameManager.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-            Management\GameManager.cs.meta
-          projectPath: Assets\Scripts\Scene Management\GameManager.cs.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs
-        label: PlayerData.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-            Management\PlayerData.cs
-          projectPath: Assets\Scripts\Scene Management\PlayerData.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs.meta
-        label: PlayerData.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-            Management\PlayerData.cs.meta
-          projectPath: Assets\Scripts\Scene Management\PlayerData.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: WorkInProgressTMInc\Assets\Scripts\Weapons
         label: Weapons
         level: 3
@@ -2212,24 +963,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: WorkInProgressTMInc\Assets\Scripts\Weapons\CollisionDetection.cs
-        label: CollisionDetection.cs
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Scripts\Weapons\CollisionDetection.cs
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Weapons\CollisionDetection.cs
-          projectPath: Assets\Scripts\Weapons\CollisionDetection.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: WorkInProgressTMInc\Assets\Scripts\Weapons\SwordBehaviour.cs
         label: SwordBehaviour.cs
         level: 4
@@ -2248,10 +981,45 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      selectedNode:
-        path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-        label: Editor.meta
-        level: 4
+      - path: WorkInProgressTMInc\UserSettings
+        label: UserSettings
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: WorkInProgressTMInc\UserSettings\Layouts
+        label: Layouts
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: WorkInProgressTMInc\UserSettings\Layouts\default-2021.dwlt
+        label: default-2021.dwlt
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2261,404 +1029,60 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-          projectPath: Assets\Plugins\GitHub\Editor.meta
+          path: WorkInProgressTMInc\UserSettings\Layouts\default-2021.dwlt
+          fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
     gitStatusEntries:
-    - path: WorkInProgressTMInc\Assets\Data\classData.json
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Data\classData.json
-      projectPath: Assets\Data\classData.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Data\classData.json.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Data\classData.json.meta
-      projectPath: Assets\Data\classData.json.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Plugins.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins.meta
-      projectPath: Assets\Plugins.meta
+    - path: WorkInProgressTMInc\Assets\Resources\Images.meta
+      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Images.meta
+      projectPath: Assets\Resources\Images.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub.meta
-      projectPath: Assets\Plugins\GitHub.meta
+    - path: WorkInProgressTMInc\Assets\Resources\Images\health.png
+      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Images\health.png
+      projectPath: Assets\Resources\Images\health.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-      projectPath: Assets\Plugins\GitHub\Editor.meta
+    - path: WorkInProgressTMInc\Assets\Resources\Images\health.png.meta
+      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Images\health.png.meta
+      projectPath: Assets\Resources\Images\health.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources.meta
-      projectPath: Assets\Resources.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources\Data.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data.meta
-      projectPath: Assets\Resources\Data.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources\Data\classData.json
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data\classData.json
-      projectPath: Assets\Resources\Data\classData.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources\Data\classData.json.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data\classData.json.meta
-      projectPath: Assets\Resources\Data\classData.json.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs
-      projectPath: Assets\Scripts\Player\PlayerHealth.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs.meta
-      projectPath: Assets\Scripts\Player\PlayerHealth.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerMovement.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerMovement.cs
-      projectPath: Assets\Scripts\Player\PlayerMovement.cs
+    - path: WorkInProgressTMInc\Assets\Scenes\Level 1.unity
+      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scenes\Level
+        1.unity
+      projectPath: Assets\Scenes\Level 1.unity
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\GameManager.cs
-      projectPath: Assets\Scripts\Scene Management\GameManager.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\GameManager.cs.meta
-      projectPath: Assets\Scripts\Scene Management\GameManager.cs.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\PlayerData.cs
-      projectPath: Assets\Scripts\Scene Management\PlayerData.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\PlayerData.cs.meta
-      projectPath: Assets\Scripts\Scene Management\PlayerData.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Weapons\CollisionDetection.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Weapons\CollisionDetection.cs
-      projectPath: Assets\Scripts\Weapons\CollisionDetection.cs
+    - path: WorkInProgressTMInc\Assets\Scripts\Enemy\EnemyHealth.cs
+      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Enemy\EnemyHealth.cs
+      projectPath: Assets\Scripts\Enemy\EnemyHealth.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -2668,15 +1092,21 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 66 changed files
+    - path: WorkInProgressTMInc\UserSettings\Layouts\default-2021.dwlt
+      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 7 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-10-31T21:28:34.722+01:00
+      updatedTimeString: 2022-11-02T19:52:20.146+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-10-31T21:45:34.550+01:00
+      updatedTimeString: 2022-11-02T19:53:00.877+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:26.290+01:00
+      updatedTimeString: 2022-11-02T19:52:20.576+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -3332,10 +1762,10 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:36.868+01:00
+      updatedTimeString: 2022-10-31T21:53:10.605+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:25.533+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
@@ -5603,14 +4033,14 @@ MonoBehaviour:
   settingsView:
     gitPathView:
       gitPath: C:\Program Files\Git\cmd\git.exe
-      gitLfsPath: C:\Users\lohma\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
+      gitLfsPath: C:\Program Files\Git\cmd\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:25.365+01:00
+      updatedTimeString: 2022-10-31T23:58:34.670+01:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/Shikislg/WorkInProgressTMInc.git
@@ -5624,7 +4054,7 @@ MonoBehaviour:
       newGitEmail: 77409631+Shikislg@users.noreply.github.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2022-10-31T21:24:37.021+01:00
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -5653,417 +4083,17 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 01:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:25.365+01:00
+      updatedTimeString: 2022-10-31T23:15:40.204+01:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:26.290+01:00
+      updatedTimeString: 2022-10-31T23:20:19.828+01:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-10-31T21:24:53.443+01:00
+      updatedTimeString: 2022-10-31T23:20:31.267+01:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries:
-    - path: WorkInProgressTMInc\Assets\Data\classData.json
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Data\classData.json
-      projectPath: Assets\Data\classData.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Data\classData.json.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Data\classData.json.meta
-      projectPath: Assets\Data\classData.json.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Plugins.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins.meta
-      projectPath: Assets\Plugins.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub.meta
-      projectPath: Assets\Plugins\GitHub.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor.meta
-      projectPath: Assets\Plugins\GitHub\Editor.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources.meta
-      projectPath: Assets\Resources.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources\Data.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data.meta
-      projectPath: Assets\Resources\Data.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources\Data\classData.json
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data\classData.json
-      projectPath: Assets\Resources\Data\classData.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Resources\Data\classData.json.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Resources\Data\classData.json.meta
-      projectPath: Assets\Resources\Data\classData.json.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs
-      projectPath: Assets\Scripts\Player\PlayerHealth.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerHealth.cs.meta
-      projectPath: Assets\Scripts\Player\PlayerHealth.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Player\PlayerMovement.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Player\PlayerMovement.cs
-      projectPath: Assets\Scripts\Player\PlayerMovement.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\GameManager.cs
-      projectPath: Assets\Scripts\Scene Management\GameManager.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\GameManager.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\GameManager.cs.meta
-      projectPath: Assets\Scripts\Scene Management\GameManager.cs.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\PlayerData.cs
-      projectPath: Assets\Scripts\Scene Management\PlayerData.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Scene Management\PlayerData.cs.meta
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Scene
-        Management\PlayerData.cs.meta
-      projectPath: Assets\Scripts\Scene Management\PlayerData.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: WorkInProgressTMInc\Assets\Scripts\Weapons\CollisionDetection.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Weapons\CollisionDetection.cs
-      projectPath: Assets\Scripts\Weapons\CollisionDetection.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: WorkInProgressTMInc\Assets\Scripts\Weapons\SwordBehaviour.cs
-      fullPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc\Assets\Scripts\Weapons\SwordBehaviour.cs
-      projectPath: Assets\Scripts\Weapons\SwordBehaviour.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    currentUsername: 
+    gitStatusEntries: []
+    currentUsername: Shikislg
     unlockFileMenuContent:
       m_Text: Release Lock
       m_Image: {fileID: 0}
@@ -6089,13 +4119,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-10-31T21:28:34.722+01:00
+    updatedTimeString: 2022-11-01T15:32:11.275+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-10-31T21:45:34.567+01:00
+    updatedTimeString: 2022-11-01T15:50:45.936+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-10-31T21:45:34.550+01:00
+    updatedTimeString: 2022-11-01T16:26:39.114+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -6115,10 +4145,10 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 1
   repositoryProgressMessage: Listing changed files...
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
   connections: []
-  primaryConnectionUsername: 
+  primaryConnectionUsername: Shikislg
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -6141,7 +4171,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 1117
-    width: 1954
+    width: 1959
     height: 282
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -6160,22 +4190,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 83
   m_LastFolders:
-  - Assets/Resources
+  - Assets
   m_LastFoldersGridSize: 83
   m_LastProjectPath: D:\GitHub\Projects\WorkInProgressTMInc\WorkInProgressTMInc
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08680000
-    m_LastClickedID: 26632
-    m_ExpandedIDs: 00000000bc520000ee52000000ca9a3bffffff7f
+    m_SelectedIDs: 9a530000
+    m_LastClickedID: 21402
+    m_ExpandedIDs: 000000009a5300005a54000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6203,7 +4233,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bc520000
+    m_ExpandedIDs: 000000009a530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6228,10 +4258,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 22510000
-    m_LastClickedInstanceID: 20770
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6281,7 +4311,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 230
+    width: 231
     height: 1023
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -6290,9 +4320,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 06fbffff
+      m_SelectedIDs: 1c520000
+      m_LastClickedID: 21020
+      m_ExpandedIDs: 08fbffffba510000d85100001c5200004c520000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -6336,9 +4366,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 231
+    x: 232
     y: 73
-    width: 1722
+    width: 1726
     height: 1023
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -6574,9 +4604,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.021432, y: 16.629341, z: 0.27191734}
+    m_Target: {x: 3.1798038, y: 1.3404996, z: 7.517515}
     speed: 2
-    m_Value: {x: 3.021432, y: 16.629341, z: 0.27191734}
+    m_Value: {x: 3.1798038, y: 1.3404996, z: 7.517515}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -6623,13 +4653,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.28086776, y: -0.6704862, z: -0.3064405, w: -0.61454856}
+    m_Target: {x: -0.07155996, y: -0.24083649, z: 0.017810697, w: -0.96776795}
     speed: 2
-    m_Value: {x: 0.2808658, y: -0.6704815, z: -0.30643836, w: -0.6145442}
+    m_Value: {x: -0.07155942, y: -0.24083468, z: 0.017810563, w: -0.9677607}
   m_Size:
-    m_Target: 9.082537
+    m_Target: 8.215513
     speed: 2
-    m_Value: 9.082537
+    m_Value: 8.215513
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -6647,7 +4677,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.06763391, y: -0.29278308, z: 0.020768814, w: -0.95356536}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -6674,9 +4704,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 231
+    x: 232
     y: 73
-    width: 1722
+    width: 1726
     height: 1023
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -6688,7 +4718,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1722, y: 1002}
+  m_TargetSize: {x: 1726, y: 1002}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -6703,8 +4733,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -861
-    m_HBaseRangeMax: 861
+    m_HBaseRangeMin: -863
+    m_HBaseRangeMax: 863
     m_VBaseRangeMin: -501
     m_VBaseRangeMax: 501
     m_HAllowExceedBaseRangeMin: 1
@@ -6724,23 +4754,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1722
+      width: 1726
       height: 1002
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 861, y: 501}
+    m_Translation: {x: 863, y: 501}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -861
+      x: -863
       y: -501
-      width: 1722
+      width: 1726
       height: 1002
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1722, y: 1023}
+  m_LastWindowPixelSize: {x: 1726, y: 1023}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -6768,7 +4798,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 1117
-    width: 1954
+    width: 1959
     height: 282
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -6794,9 +4824,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1955
+    x: 1960
     y: 73
-    width: 604
+    width: 599
     height: 1326
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:

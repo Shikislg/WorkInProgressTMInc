@@ -81,6 +81,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     private void MovePlayer(){
+        GameObject.Find("Player").transform.Rotate(0, GameObject.Find("CameraHolder").transform.rotation.y,0);
+        orientation.transform.rotation = GameObject.Find("Player").transform.rotation;
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
         if (grounded)

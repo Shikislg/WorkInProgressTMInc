@@ -9,14 +9,14 @@ public class EnemyHealth : MonoBehaviour
     public static float maxHealth;
     public static float health;
     public static bool isAlive = true;
-    private Slider healthSlider;
+    private Image healthSlider;
 
     private void Update()
     {
         if (isAlive)
         {
-            healthSlider = GetComponentInChildren<Slider>();
-            healthSlider.value = health / maxHealth;
+            healthSlider = GameObject.Find(gameObject.name+"EnemyDisplay/Foreground").GetComponent<Image>();
+            healthSlider.fillAmount = health / maxHealth;
         }
     }
 
@@ -25,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void Damage(float amount)
     {
-        if (health < amount)
+        if (health <= amount)
         {
             Kill();
         }
