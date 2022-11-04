@@ -1252,9 +1252,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 304539598}
+  - {fileID: 1102352031}
   - {fileID: 1393395955}
   - {fileID: 1620709680}
-  - {fileID: 1102352031}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1945,7 +1945,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102352031}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!114 &810254835
 MonoBehaviour:
@@ -2898,7 +2898,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6052390983447988135}
   m_Father: {fileID: 1102352031}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2914,8 +2915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbdcc98532087df4980f2ed75e27d16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensX: 800
-  sensY: 800
+  sensX: 400
+  sensY: 400
   xRotation: 0
   yRotation: 0
   orientation: {fileID: 1393395955}
@@ -3038,10 +3039,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
-  - {fileID: 6052390983447988135}
   - {fileID: 810254834}
   m_Father: {fileID: 593815878}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1393395954
 GameObject:
@@ -3072,7 +3072,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 593815878}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418265229
 GameObject:
@@ -3659,7 +3659,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 593815878}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1676586657
 GameObject:
@@ -4293,10 +4293,22 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1102352031}
+    m_TransformParent: {fileID: 963194228}
     m_Modifications:
     - target: {fileID: 4850068538956239353, guid: b36600ac6e485584da4c484d383d051a, type: 3}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850068538956239353, guid: b36600ac6e485584da4c484d383d051a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850068538956239353, guid: b36600ac6e485584da4c484d383d051a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850068538956239353, guid: b36600ac6e485584da4c484d383d051a, type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4850068538956239353, guid: b36600ac6e485584da4c484d383d051a, type: 3}
